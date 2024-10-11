@@ -14,6 +14,12 @@ There are two ways you can use to develop smart contracts, run them normally and
 bun run dev
 ```
 
+this clears the stored state of everything. is done automatically before each test.
+
+``` bash
+bun run clear
+```
+
 or write actual tests and make sure they behave as you would expect.
 ``` bash
 bun run test

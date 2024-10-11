@@ -183,3 +183,5 @@ query-server-deploy.md
 
 qodana.yaml
 *.http
+
+tmp/*
