@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "lib": [
+      "ESNext"
+    ],
+    "module": "esnext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "esnext",
+    "types": [
+      "bun-types"
+      // add Bun global
+    ],
+
+    // *** import aliases ***
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": [
+        "./core/*"
+      ],
+      "@db/*": [
+        "./db/*"
+      ],
+      "@external/*": [
+        "./external/*"
+      ],
+      "@contracts/*": [
+        "./contracts/*"
+      ]
+    }
+  }
+}
